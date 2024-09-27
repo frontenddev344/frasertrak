@@ -144,7 +144,7 @@ padding-top: 3.125rem;
     padding: 0 1.5rem;
     color: #0c0000;
     font-family: "Lora", serif;
-    font-size: 0.875rem;
+    font-size: 0.975rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .1em;
@@ -687,4 +687,7 @@ padding-top: 3.125rem;
     .info-group button:hover{
         background-color: transparent;
         color: #efb847;
+    }
+    .info-form {
+        margin: 15px 0;
     }

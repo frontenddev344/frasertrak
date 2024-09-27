@@ -10,3 +10,18 @@ window.addEventListener('scroll', function() {
     header.classList.remove('scrolled');  // Remove class when above threshold
   }
 });
+
+
+
+
+// Toggle Menu Functionaliy Start
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelector(".toogle").addEventListener("click", function () {
+    document.body.classList.add("menuToggle");
+  });
+
+  document.querySelector(".close").addEventListener("click", function () {
+    document.body.classList.remove("menuToggle");
+  });
+});
+// Toggle Menu Functionaliy End
