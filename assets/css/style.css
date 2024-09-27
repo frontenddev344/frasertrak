@@ -691,3 +691,27 @@ padding-top: 3.125rem;
     .info-form {
         margin: 15px 0;
     }
+
+    /* privacy page css  */
+
+    .privacy-wrap p .privacy-wrap li {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #0c0c0c;
+        margin-bottom: 10px;
+    }
+    .privacy-wrap li {
+        padding: 8px 0;
+    }
+    .privacy-wrap p a, .privacy-wrap li a{
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    .privacy-wrap li strong{
+        display: block;
+    }
+    .privacy-wrap ul{
+        padding-left: 20px;
+        list-style: disc;
+    }
