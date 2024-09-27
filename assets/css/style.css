@@ -512,7 +512,7 @@ padding-top: 3.125rem;
     color: #b5b5b5;
 }
 .ssl-logo {
-    max-width: 7.5rem;
+    max-width: 9.375rem;
 }
 /* footer section end */
 /* event page css start */
@@ -714,4 +714,8 @@ padding-top: 3.125rem;
     .privacy-wrap ul{
         padding-left: 20px;
         list-style: disc;
+        margin: 7px 0;
+    }
+    .privacy-wrap p {
+        margin-bottom: 10px;
     }
